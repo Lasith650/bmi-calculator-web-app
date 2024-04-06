@@ -8,7 +8,7 @@ function App() {
   const [bmi, setBMI] = useState(null);
 
   const calculateBMI = async () => {
-    const response = await fetch('https://8fe4a8b1-4dab-445f-96af-89aec9819abc-dev.e1-us-cdp-2.choreoapis.dev/zgev/bmi-calculator/bmi-calculator-f1e/v1.0/calculate', {
+    const response = await fetch('https://8fe4a8b1-4dab-445f-96af-89aec9819abc-prod.e1-us-cdp-2.choreoapis.dev/zgev/bmi-calculator/bmi-calculator-f1e/v1.0/calculate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
